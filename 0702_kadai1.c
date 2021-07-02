@@ -7,7 +7,7 @@ int dist(double a, double b, double c, double d);
 
 int main(void) {
 	double x[3], y[3];
-	double a, b, c, s=0;
+	double a, b, c, s;
 
 	//座標を入力
 	for(int i = 0; i < 3; i ++) {
