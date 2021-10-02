@@ -39,9 +39,6 @@ int main(void){
         else numf = atof(numc);
 
         switch(cal[0]){
-            case 0:
-                sum += numf;
-                break;
             case '+':
                 sum += numf;
                 break;
@@ -54,7 +51,8 @@ int main(void){
             case '/':
                 sum /= numf;
                 break;
-            Default:
+            default:
+                sum += numf;
                 break;
         }
         rad = 0;
